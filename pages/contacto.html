@@ -17,17 +17,22 @@
 </head>
 <body>
         <header>
-            <nav class="navegacion">
-                <div class="logo">
-                    <a href="../index.html"><img src="../img/Logo.png" alt="Imagen del Logo de la Compañía"></a>
+            <nav class="navbar navbar-expand-lg bg-black d-flex">
+                <div class="container-fluid fw-bold">
+                  <a class="navbar-brand fs-1 text-white" href="../index.html">Spaced</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active fs-4 text-white" aria-current="page" href="../index.html">Inicio</a>
+                      <a class="nav-link active fs-4 text-white" href="descubre.html">Descubre</a>
+                      <a class="nav-link active fs-4 text-white" href="planes.html">Planes</a>
+                      <a class="nav-link active fs-4 text-white" href="nosotros.html">Nosotros</a>
+                    </div>
+                  </div>
                 </div>
-                <ul class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="descubre.html">Descubre</a></li>
-                    <li><a href="planes.html">Planes</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                </ul>
-            </nav>
+              </nav>
         </header>
         
         <!-- Uso de Bootstrap -->
@@ -113,5 +118,7 @@
             </div>
         </div>
         </footer>
+        <!-- JavaScript Link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
