@@ -472,21 +472,34 @@ main {
 
 /* Estilos a Contacto */
 .img-contacto {
-    max-width: 8rem;
-    max-height: 8rem;
+    max-width: 5rem;
+    max-height: 5rem;
     margin: 0.5rem;
 }
 
 .negocios {
     border: 1px #ffff solid;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .img-contacto {
+    max-width: 8rem;
+    max-height: 8rem;
+    }
 }
 
 .form {
     border:#fff 1px solid;
     padding: 3rem;
-    margin: 4rem;
+    margin: 0;
     margin-top: 0;
     text-align: center;
+}
+
+.formulario {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .formulario-texto {
@@ -508,11 +521,11 @@ main {
 }
 
 .input-form {
-    margin: 7rem;
+    margin: 2rem;
 }
 
 .form-submit {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem;
     font-weight: bold;
     background-color: #555252;
@@ -524,7 +537,22 @@ main {
 }
 
 .label-texto {
-    margin-right: 7rem;
+    margin-right: 0;
+}
+
+@media (min-width: 768px) {
+    .form {
+    margin: 4rem;
+    }
+    .input-form {
+        margin: 7rem;
+    }
+    .form-submit {
+        font-size: 2rem;
+    }
+    .label-texto {
+        margin-right: 7rem;
+    }
 }
 
 .input {
@@ -535,7 +563,7 @@ main {
 }
 
 .negocios {
-    margin: 8rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 3rem;
     font-size: 30rem;
@@ -543,11 +571,21 @@ main {
 
 .texto-negocios {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
     color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .texto-negocios {
+    font-size: 2rem;
     line-height: 4rem;
+    }
+    .negocios {
+        margin: 8rem;
+    }
 }
 
 .nuestras-redes {
     text-align: center;
+    margin-bottom: 2rem;
 }
