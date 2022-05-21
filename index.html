@@ -14,8 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="img/ico.ico">
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 <body>
     <!---->
@@ -52,20 +53,34 @@
         </section>
 
         <h2 class="titulo">Descubre Noticias Asombrosas</h2>
+
         <section>
-                <article class="slider">
-                    <ul>
-                        <li>
-                            <a href="https://www.xataka.com/espacio/elon-musk-anuncia-que-primera-mision-tripulada-a-marte-spacex-sera-2024-hay-suerte-seguro-2026"><img src="img/inicio_noticias1.jpg" alt="Imagen de una nave en Marte"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.diariodeleon.es/articulo/actualidad/mente-gran-reto-astronauta/201909220402421940709.html"><img src="img/inicio_noticias2.jpg" alt="Imagen de un astronauta"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.eleconomista.com.mx/tecnologia/que-son-los-satelites-artificiales-20200129-0066.html"><img src="img/inicio_noticias3.jpg" alt="Imagen de un satélite en el espacio"></a>
-                        </li>
-                    </ul>
-                </article>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://www.diariodeleon.es/articulo/actualidad/mente-gran-reto-astronauta/201909220402421940709.html"><img src="img/inicio_noticias1.jpg" alt="Imagen de un astronauta"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.xataka.com/espacio/elon-musk-anuncia-que-primera-mision-tripulada-a-marte-spacex-sera-2024-hay-suerte-seguro-2026"><img src="img/inicio_noticias2.jpg" alt="Imagen de una nave en Marte" "></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.eleconomista.com.mx/tecnologia/que-son-los-satelites-artificiales-20200129-0066.html"><img src="img/inicio_noticias3.jpg" alt="Imagen de un satélite en el espacio" class="d-block w-100"></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
         <h2 class="titulo">Mira lo que Dicen de Nosotros</h2>
@@ -113,5 +128,7 @@
             <p>Todos los derechos reservados 2022</p>
         </div>
     </footer>
-</body>
+
+    <!-- Link JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>

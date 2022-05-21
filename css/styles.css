@@ -201,47 +201,6 @@ main {
         padding: 7rem 15rem 0 5.5rem;
     }
 }
-
-/* Estilos al tercer section*/
-.slider {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    animation: cambio 20s infinite alternate linear;
-    width: 300%;
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider img{
-    width: 100%;
-    height: 100%;
-}
-
-@keyframes cambio {
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-    75%{margin-left: -200%;}
-}
-
-@media (min-width: 768px) {
-    .slider img{
-        width: 90%;
-        height: 100%;
-    }    
-}
-
 /* Estilos al cuarto section*/
 .opinion-personas {
     display: flex;
@@ -509,4 +468,86 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-auto-flow: column;
     }
+}
+
+/* Estilos a Contacto */
+.img-contacto {
+    max-width: 8rem;
+    max-height: 8rem;
+    margin: 0.5rem;
+}
+
+.negocios {
+    border: 1px #ffff solid;
+}
+
+.form {
+    border:#fff 1px solid;
+    padding: 3rem;
+    margin: 4rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.formulario-texto {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+}
+
+.formulario-estilo {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.llamamos-titulo {
+    font-size: 3rem;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.input-form {
+    margin: 7rem;
+}
+
+.form-submit {
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: #555252;
+    border: none;
+}
+
+.input-form:last-of-type {
+    text-align: center;
+}
+
+.label-texto {
+    margin-right: 7rem;
+}
+
+.input {
+    background-color: #8d8d8dad;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.negocios {
+    margin: 8rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    font-size: 30rem;
+}
+
+.texto-negocios {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 4rem;
+}
+
+.nuestras-redes {
+    text-align: center;
 }
