@@ -47,9 +47,9 @@ img {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #ffff;
-    font-size: 1.28rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 0.7rem;
+    margin: 0.6rem;
 }
 
 .menu li a:hover {
@@ -282,7 +282,6 @@ a:hover {
     display: none;
 
 }
-
 .menu-footer a {
     text-decoration: none;
     color: #ffff;
