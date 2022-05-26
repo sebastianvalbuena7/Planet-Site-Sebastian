@@ -359,27 +359,33 @@ a:hover {
 .texto-nosotros {
     padding: 4rem;
     border: 1px solid #ffff;
+    margin: 2rem;
 }
 
 .video-youtube{
-    max-width: 35rem;
+    width: 32rem;
+    height: 30rem;
     border: 1px solid #ffff;
     margin: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.grid-nosotros {
+    display: grid;
+    justify-items: center;
 }
 
 @media (min-width: 768px) {
     .grid-nosotros{
-        display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
         padding: 5rem;
     }
     .video-youtube{
-        max-width: 80rem;
-        width: 80rem;
-        border: 1px solid #ffff;
-        margin: 1.2rem;
+        width: 60rem;
+        height: 39rem;
+        margin-bottom: 1rem;
     }
 }
 
