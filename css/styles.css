@@ -279,9 +279,8 @@ a:hover {
 
 .menu-footer {
     font-family: 'Open Sans', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    display: none;
+
 }
 
 .menu-footer a {
@@ -296,9 +295,13 @@ a:hover {
     margin-right: 0;
 }
 .img-footer img {
-    max-width: 1.5rem;
-    max-height: 1.5rem;
-    margin: 0.4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+}
+
+.img-footer img:last-of-type {
+    margin-right: 2rem;
 }
 
 .derechos-reservados {
@@ -320,6 +323,9 @@ a:hover {
     }
     
     .menu-footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; 
         flex: 1 1 0;
     }
     
