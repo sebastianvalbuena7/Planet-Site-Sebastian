@@ -224,6 +224,11 @@ footer {
     .logo {
         @extend %logo;
     }
+    .img-footer {
+        .imagenes-footer:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.927);
+        }
+    }
     .img-footer img {
         width: 2.5rem;
         height: 2.5rem;
