@@ -1,0 +1,58 @@
+/* Reset */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* Uso de Rems */ }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+/* Fuentes */
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Open Sans', sans serif;*/
+/* Variables de colores */
+/* Utilidad */
+.texto {
+  font-family: "Open Sans", sans-serif;
+  color: #ffff;
+  font-size: 1.4rem; }
+
+/* Estilos al header */
+.nav-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+  .nav-sticky .navegacion {
+    background-color: #141212;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem; }
+  .nav-sticky .logo a img {
+    max-width: 5.5rem;
+    max-height: 6rem; }
+  .nav-sticky .logo {
+    flex: 1 1 0; }
+  .nav-sticky .menu {
+    margin-bottom: 0;
+    padding: 0; }
+  .nav-sticky .menu li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.6rem; }
+  .nav-sticky .menu li a:hover {
+    color: #716b6b; }
+  .nav-sticky .menu li a {
+    transition: color 0.3s linear 0.2s; }
+  .nav-sticky .menu li a:last-of-type {
+    margin-right: 0.8rem; }
+  .nav-sticky .menu li {
+    display: inline; }

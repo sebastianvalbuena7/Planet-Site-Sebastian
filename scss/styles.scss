@@ -1,0 +1,76 @@
+/* Reset */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Uso de Rems */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Fuentes */
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Open Sans', sans serif;*/
+
+/* Variables de colores */
+$color-white: #ffff;
+$bg-color: #141212;
+$hover-color: rgb(113,107,107);
+$padding-principal: 2rem;
+
+/* Utilidad */
+.texto {
+    font-family: "Open Sans", sans-serif;
+    color: $color-white;
+    font-size: 1.4rem;
+}
+
+/* Estilos al header */
+.nav-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+        .navegacion {
+            background-color: $bg-color; 
+            display: flex;
+            align-items: center;
+            height: 4rem;
+            padding: 1rem;
+        }
+        .logo a img {
+            max-width: 5.5rem;
+            max-height: 6rem;
+        }
+        .logo {
+            flex: 1 1 0;
+        }
+        .menu {
+            margin-bottom: 0;
+            padding: 0;
+        }
+        .menu li a{
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            color: #ffff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0.6rem;
+        }
+        .menu li a:hover {
+            color: rgb(113, 107, 107);
+        }
+        .menu li a {
+            transition: color 0.3s linear 0.2s;
+        }
+        .menu li a:last-of-type {
+            margin-right: 0.8rem;
+        }
+        .menu li {
+            display: inline;
+        }
+}
