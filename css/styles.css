@@ -8,6 +8,36 @@
   height: 4rem;
   padding: 1rem; }
 
+.nav-sticky .menu {
+  margin-bottom: 0;
+  padding: 0; }
+
+.nav-sticky .menu li a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.6rem; }
+  @media (min-width: 768px) {
+    .nav-sticky .menu li a {
+      font-size: 1.5rem;
+      margin: 0.4rem;
+      font-weight: bold;
+      margin-left: 0.4rem; } }
+
+.nav-sticky .menu li a:hover {
+  color: #716b6b; }
+
+.nav-sticky .menu li a {
+  transition: color 0.3s linear 0.2s; }
+
+.nav-sticky .menu li a:last-of-type {
+  margin-right: 0.8rem; }
+
+.nav-sticky .menu li {
+  display: inline; }
+
 .nav-sticky .logo a img, footer .logo a img {
   max-width: 5.5rem;
   max-height: 6rem; }
@@ -74,30 +104,6 @@ img {
       max-height: 5rem; } }
   .nav-sticky .logo {
     flex: 1 1 0; }
-  .nav-sticky .menu {
-    margin-bottom: 0;
-    padding: 0; }
-  .nav-sticky .menu li a {
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    color: #ffff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0.6rem; }
-    @media (min-width: 768px) {
-      .nav-sticky .menu li a {
-        font-size: 1.5rem;
-        margin: 0.4rem;
-        font-weight: bold;
-        margin-left: 0.4rem; } }
-  .nav-sticky .menu li a:hover {
-    color: #716b6b; }
-  .nav-sticky .menu li a {
-    transition: color 0.3s linear 0.2s; }
-  .nav-sticky .menu li a:last-of-type {
-    margin-right: 0.8rem; }
-  .nav-sticky .menu li {
-    display: inline; }
 
 /* Estilos al main */
 main {
