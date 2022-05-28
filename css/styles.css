@@ -1,18 +1,18 @@
 /* Extends */
 /* Variables */
 /* Extend */
-.nav-sticky .navegacion, main footer .navegacion {
+.nav-sticky .navegacion, footer .navegacion {
   background-color: #141212;
   display: flex;
   align-items: center;
   height: 4rem;
   padding: 1rem; }
 
-.nav-sticky .logo a img, main footer .logo {
+.nav-sticky .logo a img, footer .logo {
   max-width: 5.5rem;
   max-height: 6rem; }
   @media (min-width: 768px) {
-    .nav-sticky .logo a img, main footer .logo {
+    .nav-sticky .logo a img, footer .logo {
       max-width: 10rem;
       max-height: 10rem; } }
 
@@ -29,10 +29,10 @@ main .marte-fondo .boton-section .boton, main .tierra-fondo .boton-section .boto
   padding: 1.4rem;
   border: #141212 1px solid;
   background-color: #141212;
-  margin: 7rem 6rem;
+  margin: 7rem 8rem;
   transition: 3.5s; }
 
-main .tierra-fondo .opinion-personas .personas {
+main .opinion-personas .personas {
   font-family: "Inconsolata", monospace;
   color: #ffff;
   font-size: 1.3rem;
@@ -101,8 +101,7 @@ img {
 
 /* Estilos al main */
 main {
-  background-image: url(../img/FondoEscritorio.png);
-  /* Estilos al footer */ }
+  background-image: url(../img/FondoEscritorio.png); }
   main .titulo {
     margin: 0 auto;
     padding: 4rem 4rem 4rem 4rem;
@@ -180,78 +179,84 @@ main {
         main .tierra-fondo .boton-section .boton:hover {
           border-radius: 80%;
           font-size: 2rem; } }
-    main .tierra-fondo .opinion-personas {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center; }
-      @media (min-width: 768px) {
-        main .tierra-fondo .opinion-personas {
-          overflow: hidden;
-          max-width: 120rem;
-          max-height: 50rem;
-          flex-direction: row;
-          margin: 0 auto;
-          padding: 2rem; } }
-      @media (min-width: 768px) {
-        main .tierra-fondo .opinion-personas .personas {
-          font-size: 1.5rem;
-          margin: 2rem 4rem 2rem 2rem; } }
-      main .tierra-fondo .opinion-personas .personas .logo-personas {
-        max-width: 2.5rem;
-        max-height: 2.5rem; }
-        @media (min-width: 768px) {
-          main .tierra-fondo .opinion-personas .personas .logo-personas {
-            max-width: 3rem;
-            max-height: 3rem; } }
-  main footer .navegacion-footer {
+  main .opinion-personas {
     display: flex;
-    justify-content: space-between;
-    background-color: #141212;
-    padding: 1rem; }
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
     @media (min-width: 768px) {
-      main footer .navegacion-footer {
-        display: flex; } }
-  main footer .img-footer img {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 0.5rem; }
-  main footer .img-footer img:last-of-type {
-    margin-right: 2rem; }
-  main footer .menu-footer {
-    font-family: "Open Sans", sans-serif;
-    display: none; }
-    main footer .menu-footer a {
-      text-decoration: none;
-      color: #ffff;
-      font-weight: bold;
-      font-size: 1rem;
-      margin: 0.3rem;
-      margin-left: 0.4rem;
-      transition: color 0.2s linear 0.1s; }
-    main footer .menu-footer a:last-of-type {
-      margin-right: 0; }
-    main footer .menu-footer a:hover {
-      color: #716b6b; }
+      main .opinion-personas {
+        overflow: hidden;
+        max-width: 120rem;
+        max-height: 50rem;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 2rem; } }
     @media (min-width: 768px) {
-      main footer .menu-footer {
-        display: flex; }
-        main footer .menu-footer a {
-          font-size: 1.5rem;
-          margin: 1.2rem;
-          margin-left: 0; }
-        main footer .menu-footer img {
+      main .opinion-personas .personas {
+        font-size: 1.5rem;
+        margin: 2rem 4rem 2rem 2rem; } }
+    main .opinion-personas .personas .logo-personas {
+      max-width: 2.5rem;
+      max-height: 2.5rem; }
+      @media (min-width: 768px) {
+        main .opinion-personas .personas .logo-personas {
           max-width: 3rem;
-          max-height: 3rem;
-          margin: 0.5rem; } }
-  main footer .derechos-reservados {
-    background-image: url(../img/FondoEscritorio.png);
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
+          max-height: 3rem; } }
+
+/* Estilos al footer */
+footer .navegacion-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141212;
+  padding: 1rem; }
+  @media (min-width: 768px) {
+    footer .navegacion-footer {
+      display: flex; } }
+
+footer .img-footer img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.5rem; }
+
+footer .img-footer img:last-of-type {
+  margin-right: 2rem; }
+
+footer .menu-footer {
+  font-family: "Open Sans", sans-serif;
+  display: none; }
+  footer .menu-footer a {
+    text-decoration: none;
     color: #ffff;
-    padding: 1rem; }
-    @media (min-width: 768px) {
-      main footer .derechos-reservados {
-        font-size: 1.5rem; } }
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.3rem;
+    margin-left: 0.4rem;
+    transition: color 0.2s linear 0.1s; }
+  footer .menu-footer a:last-of-type {
+    margin-right: 0; }
+  footer .menu-footer a:hover {
+    color: #716b6b; }
+  @media (min-width: 768px) {
+    footer .menu-footer {
+      display: flex; }
+      footer .menu-footer a {
+        font-size: 1.5rem;
+        margin: 1.2rem;
+        margin-left: 0; }
+      footer .menu-footer img {
+        max-width: 3rem;
+        max-height: 3rem;
+        margin: 0.5rem; } }
+
+footer .derechos-reservados {
+  background-image: url(../img/FondoEscritorio.png);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  color: #ffff;
+  padding: 1rem; }
+  @media (min-width: 768px) {
+    footer .derechos-reservados {
+      font-size: 1.5rem; } }
