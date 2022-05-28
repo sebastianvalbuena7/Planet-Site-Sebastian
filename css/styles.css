@@ -377,6 +377,7 @@ a:hover {
 }
 
 .texto-nosotros {
+    line-height: 2;
     padding: 4rem;
     border: 1px solid #ffff;
     margin: 2rem;
