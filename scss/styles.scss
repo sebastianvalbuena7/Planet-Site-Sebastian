@@ -50,7 +50,7 @@ img {
         .menu li a{
             font-family: $fuente-principal;
             text-decoration: none;
-            color: #ffff;
+            color: $color-white;
             font-size: 1.2rem;
             font-weight: bold;
             margin: 0.6rem;
@@ -183,7 +183,7 @@ main {
         align-content: center;
         @media (min-width: 768px) {
             overflow: hidden;
-            max-width: 120rem;
+            max-width: 125rem;
             max-height: 50rem;
             flex-direction: row;
             margin: $centrar-div;

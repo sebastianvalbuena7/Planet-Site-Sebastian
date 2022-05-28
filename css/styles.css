@@ -187,7 +187,7 @@ main {
     @media (min-width: 768px) {
       main .opinion-personas {
         overflow: hidden;
-        max-width: 120rem;
+        max-width: 125rem;
         max-height: 50rem;
         flex-direction: row;
         margin: 0 auto;
@@ -260,3 +260,6 @@ footer .derechos-reservados {
   @media (min-width: 768px) {
     footer .derechos-reservados {
       font-size: 1.5rem; } }
+.img-footer img:hover {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.927);
+}
