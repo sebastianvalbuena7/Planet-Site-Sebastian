@@ -286,9 +286,19 @@ footer .derechos-reservados {
 main .grid-descubre .cards-descubre {
   text-align: center;
   padding: 2rem; }
+  @media (min-width: 768px) {
+    main .grid-descubre .cards-descubre {
+      text-align: left;
+      padding: 2rem;
+      border: 1px solid #ffff;
+      margin: 2rem; } }
   main .grid-descubre .cards-descubre .imagenes-descubre {
     height: 20rem;
     width: 20rem; }
+    @media (min-width: 768px) {
+      main .grid-descubre .cards-descubre .imagenes-descubre {
+        width: 22rem;
+        height: 22rem; } }
 
 main .grid-descubre .barra-descubre {
   border-top: 1px solid #ffff;
@@ -296,3 +306,6 @@ main .grid-descubre .barra-descubre {
   max-width: 300px;
   padding: 0;
   margin: 20px auto 0 auto; }
+  @media (min-width: 768px) {
+    main .grid-descubre .barra-descubre {
+      display: none; } }
