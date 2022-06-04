@@ -2,13 +2,6 @@
 /* Extends */
 /* Variables */
 /* Extend */
-.nav-sticky .navegacion, footer .navegacion {
-  background-color: #141212;
-  display: flex;
-  align-items: center;
-  height: 4rem;
-  padding: 1rem; }
-
 .nav-sticky .menu {
   margin-bottom: 0;
   padding: 0; }
@@ -73,6 +66,7 @@ main .opinion-personas .personas {
   display: flex;
   flex-direction: column; }
 
+/* Mixin */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -97,12 +91,18 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 0; }
-  @media (min-width: 768px) {
-    .nav-sticky .navegacion {
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.2rem;
-      max-height: 5rem; } }
+  .nav-sticky .navegacion {
+    background-color: #141212;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem; }
+    @media (min-width: 768px) {
+      .nav-sticky .navegacion {
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem;
+        max-height: 5rem; } }
   .nav-sticky .logo {
     flex: 1 1 0; }
 
@@ -221,6 +221,13 @@ footer .navegacion-footer {
     footer .navegacion-footer {
       background-color: #141212;
       padding: 2rem; } }
+
+footer .navegacion {
+  background-color: #141212;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem; }
 
 footer .logo {
   flex: 1 1 0; }
@@ -352,3 +359,34 @@ main .grid-planes {
     @media (min-width: 768px) {
       main .grid-planes .cards-planes .tamaño-planetas {
         height: 25rem; } }
+
+/* Estilos a Nosotros */
+/* Estilos a Contacto */
+.container-fluid .formulario {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+  .container-fluid .formulario .form {
+    border: 1px solid #ffff;
+    padding: 1rem;
+    margin: 0;
+    margin-top: 0;
+    text-align: center; }
+    .container-fluid .formulario .form .formulario-estilo {
+      text-align: left;
+      font-size: 2rem; }
+      .container-fluid .formulario .form .formulario-estilo .formulario-texto {
+        font-size: 2rem;
+        font-family: "Open Sans", sans-serif;
+        color: #ffff; }
+      .container-fluid .formulario .form .formulario-estilo .llamamos-titulo {
+        font-size: 3rem;
+        font-family: "Inconsolata", monospace;
+        text-align: center;
+        margin-bottom: 2rem; }
+      .container-fluid .formulario .form .formulario-estilo .input-form {
+        margin: 0;
+        margin-bottom: 2rem; }
+        .container-fluid .formulario .form .formulario-estilo .input-form .formulario-texto {
+          font-size: 2rem;
+          font-family: "Open Sans", sans-serif;
+          color: #ffff; }

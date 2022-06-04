@@ -1,6 +1,7 @@
 /* Extends */
 @import "base/variables";
 @import "base/extend";
+@import "base/mixin";
 
 html {
     box-sizing: border-box;
@@ -16,7 +17,6 @@ img {
     max-width: 100%;
 }
 
-
 /* Utilidad */
 .texto {
     font-family: $fuente-principal;
@@ -29,7 +29,7 @@ img {
     position: sticky;
     top: 0;
         .navegacion {
-            @extend %navegacion;
+            @include navegacion;
             @media (min-width: 768px) {
                 justify-content: space-between;
                 align-items: center;
@@ -191,7 +191,7 @@ footer {
         }
     }
     .navegacion {
-        @extend %navegacion;
+        @include navegacion;
     }
     .logo {
         flex: 1 1 0;
@@ -346,5 +346,43 @@ main {
                 }
             }
         }
+    }
+}
+
+/* Estilos a Nosotros */
+
+
+/* Estilos a Contacto */
+.container-fluid {
+    .formulario {
+       margin-left: $medida-promedio;
+       margin-right: $medida-promedio;
+       .form {
+           border: 1px solid $color-white;
+           padding: 1rem;
+           margin: 0;
+           margin-top: 0;
+           text-align: center;
+           .formulario-estilo {
+               text-align: left;
+               font-size: 2rem;
+               .formulario-texto {
+                   @include formulario-texto;
+               }
+               .llamamos-titulo {
+                   font-size: 3rem;
+                   font-family: $fuente-secundaria;
+                   text-align: center;
+                   margin-bottom: $medida-promedio;
+               }
+               .input-form {
+                   margin: 0;
+                   margin-bottom: 2rem;
+                   .formulario-texto {
+                       @include formulario-texto;
+                   }
+               }
+           }
+       }
     }
 }
