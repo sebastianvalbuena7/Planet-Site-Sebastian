@@ -298,3 +298,31 @@ main {
         }
     }
 }
+
+/* Estilos a Planes */
+main {
+    .grid-planes {
+        padding-bottom: 2rem;
+        .cards-planes {
+            font-family: $fuente-principal;
+            color: $color-white;
+            text-align: center;
+            font-size: $medida-promedio;
+            margin: $centrar-div;
+            margin-bottom: $medida-promedio;
+            padding: $medida-promedio;
+            max-width: 30rem;
+            border: 1px solid $color-white;
+            line-height: 1.8;
+            a {
+                text-decoration: none;
+                color: $color-white;
+                font-weight: bold;
+                font-size: 1.4rem;
+                padding: 1rem;
+                border: $bg-color 1px solid;
+                background-color: $bg-color;
+            }
+        }
+    }
+}
