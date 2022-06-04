@@ -339,6 +339,8 @@ main .grid-planes {
       padding: 1rem;
       border: #141212 1px solid;
       background-color: #141212; }
+      main .grid-planes .cards-planes a:hover {
+        font-size: 1.6rem; }
     @media (min-width: 768) {
       main .grid-planes .cards-planes {
         display: flex;
