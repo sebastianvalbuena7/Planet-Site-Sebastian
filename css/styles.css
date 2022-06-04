@@ -275,3 +275,24 @@ footer .derechos-reservados {
   @media (min-width: 768px) {
     footer .derechos-reservados {
       font-size: 1.5rem; } }
+
+/* Estilos a Descubre*/
+@media (min-width: 768px) {
+  main .grid-descubre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column; } }
+
+main .grid-descubre .cards-descubre {
+  text-align: center;
+  padding: 2rem; }
+  main .grid-descubre .cards-descubre .imagenes-descubre {
+    height: 20rem;
+    width: 20rem; }
+
+main .grid-descubre .barra-descubre {
+  border-top: 1px solid #ffff;
+  height: 2px;
+  max-width: 300px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
