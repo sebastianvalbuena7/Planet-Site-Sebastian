@@ -445,15 +445,17 @@ main {
                    font-family: $fuente-secundaria;
                    text-align: center;
                    margin-bottom: $medida-promedio;
-                   padding-top: 2rem;
+                   padding-top: 3rem;
                }
                .input-form {
                    margin: 0;
                    margin-bottom: $medida-promedio;
-                   &:last-of-type{
-                       text-align: center;
+                   &:last-of-type {
+                       display: flex;
+                       justify-content: center;
                    }
                    @media(min-width: 768px) {
+                    display: flex;
                     margin: 7rem;
                    }
                    .label-texto {

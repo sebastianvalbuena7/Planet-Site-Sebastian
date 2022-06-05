@@ -445,14 +445,16 @@ main .grid-planes {
         font-family: "Inconsolata", monospace;
         text-align: center;
         margin-bottom: 2rem;
-        padding-top: 2rem; }
+        padding-top: 3rem; }
       .container-fluid .formulario .form .formulario-estilo .input-form {
         margin: 0;
         margin-bottom: 2rem; }
         .container-fluid .formulario .form .formulario-estilo .input-form:last-of-type {
-          text-align: center; }
+          display: flex;
+          justify-content: center; }
         @media (min-width: 768px) {
           .container-fluid .formulario .form .formulario-estilo .input-form {
+            display: flex;
             margin: 7rem; } }
         .container-fluid .formulario .form .formulario-estilo .input-form .label-texto {
           margin-right: 0; }
