@@ -274,7 +274,7 @@ main {
             @media(min-width: 768px) {
                 text-align: left;
                 padding: 2rem;
-                border: 1px solid $color-white;
+                @include border;
                 margin: $medida-promedio;
             }
             .imagenes-descubre {
@@ -318,7 +318,7 @@ main {
             margin-bottom: $medida-promedio;
             padding: $medida-promedio;
             max-width: 30rem;
-            border: 1px solid $color-white;
+            @include border;
             line-height: 1.8;
             a {
                 text-decoration: none;
@@ -426,12 +426,11 @@ main {
        margin-left: $medida-promedio;
        margin-right: $medida-promedio;
        .form {
-           border: 1px solid $color-white;
+           @include border;
            padding: 1rem;
            margin: 0;
            margin-top: 0;
-           text-align: center;
-           max-height: 75  rem;
+           text-align: left;
            @media(min-width: 768px) {
                margin: 4rem;
            }
@@ -446,6 +445,7 @@ main {
                    font-family: $fuente-secundaria;
                    text-align: center;
                    margin-bottom: $medida-promedio;
+                   padding-top: 2rem;
                }
                .input-form {
                    margin: 0;

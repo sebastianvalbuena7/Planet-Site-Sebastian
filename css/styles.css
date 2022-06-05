@@ -429,8 +429,7 @@ main .grid-planes {
     padding: 1rem;
     margin: 0;
     margin-top: 0;
-    text-align: center;
-    max-height: 75  rem; }
+    text-align: left; }
     @media (min-width: 768px) {
       .container-fluid .formulario .form {
         margin: 4rem; } }
@@ -445,7 +444,8 @@ main .grid-planes {
         font-size: 3rem;
         font-family: "Inconsolata", monospace;
         text-align: center;
-        margin-bottom: 2rem; }
+        margin-bottom: 2rem;
+        padding-top: 2rem; }
       .container-fluid .formulario .form .formulario-estilo .input-form {
         margin: 0;
         margin-bottom: 2rem; }
