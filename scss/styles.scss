@@ -363,6 +363,10 @@ main {
            margin: 0;
            margin-top: 0;
            text-align: center;
+           max-height: 75  rem;
+           @media(min-width: 768px) {
+               margin: 4rem;
+           }
            .formulario-estilo {
                text-align: left;
                font-size: 2rem;
@@ -377,9 +381,34 @@ main {
                }
                .input-form {
                    margin: 0;
-                   margin-bottom: 2rem;
-                   .formulario-texto {
-                       @include formulario-texto;
+                   margin-bottom: $medida-promedio;
+                   &:last-of-type{
+                       text-align: center;
+                   }
+                   @media(min-width: 768px) {
+                    margin: 7rem;
+                   }
+                   .label-texto {
+                       margin-right: 0;
+                       @media(min-width: 768px) {
+                           margin-right: 7rem;
+                       }
+                   }
+                   .input {
+                       background-color: #8d8d8d8d;
+                       border: none;
+                       color: $color-white;
+                       padding: 0.5rem;
+                   }
+                   .form-submit {
+                       font-size: 1.5rem;
+                       padding: 1rem;
+                       font-weight: bold;
+                       border: none;
+                       background-color: #555252;
+                       @media(min-width: 768px) {
+                           font-size: $medida-promedio;
+                       }
                    }
                }
            }

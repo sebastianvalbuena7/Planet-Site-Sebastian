@@ -370,7 +370,11 @@ main .grid-planes {
     padding: 1rem;
     margin: 0;
     margin-top: 0;
-    text-align: center; }
+    text-align: center;
+    max-height: 75  rem; }
+    @media (min-width: 768px) {
+      .container-fluid .formulario .form {
+        margin: 4rem; } }
     .container-fluid .formulario .form .formulario-estilo {
       text-align: left;
       font-size: 2rem; }
@@ -386,7 +390,27 @@ main .grid-planes {
       .container-fluid .formulario .form .formulario-estilo .input-form {
         margin: 0;
         margin-bottom: 2rem; }
-        .container-fluid .formulario .form .formulario-estilo .input-form .formulario-texto {
-          font-size: 2rem;
-          font-family: "Open Sans", sans-serif;
-          color: #ffff; }
+        .container-fluid .formulario .form .formulario-estilo .input-form:last-of-type {
+          text-align: center; }
+        @media (min-width: 768px) {
+          .container-fluid .formulario .form .formulario-estilo .input-form {
+            margin: 7rem; } }
+        .container-fluid .formulario .form .formulario-estilo .input-form .label-texto {
+          margin-right: 0; }
+          @media (min-width: 768px) {
+            .container-fluid .formulario .form .formulario-estilo .input-form .label-texto {
+              margin-right: 7rem; } }
+        .container-fluid .formulario .form .formulario-estilo .input-form .input {
+          background-color: #8d8d8d8d;
+          border: none;
+          color: #ffff;
+          padding: 0.5rem; }
+        .container-fluid .formulario .form .formulario-estilo .input-form .form-submit {
+          font-size: 1.5rem;
+          padding: 1rem;
+          font-weight: bold;
+          border: none;
+          background-color: #555252; }
+          @media (min-width: 768px) {
+            .container-fluid .formulario .form .formulario-estilo .input-form .form-submit {
+              font-size: 2rem; } }
