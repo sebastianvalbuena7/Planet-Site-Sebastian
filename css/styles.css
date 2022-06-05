@@ -32,11 +32,11 @@
 .nav-sticky .menu li {
   display: inline; }
 
-.nav-sticky .logo a img, footer .logo a img {
+.nav-sticky .logo a img, footer .logo a img, .fondo-nosotros .navegacion-nosotros .logo {
   max-width: 5.5rem;
   max-height: 6rem; }
   @media (min-width: 768px) {
-    .nav-sticky .logo a img, footer .logo a img {
+    .nav-sticky .logo a img, footer .logo a img, .fondo-nosotros .navegacion-nosotros .logo {
       max-width: 10rem;
       max-height: 10rem; } }
 
@@ -361,6 +361,61 @@ main .grid-planes {
         height: 25rem; } }
 
 /* Estilos a Nosotros */
+.fondo-nosotros {
+  background-image: url(../img/Nosotros.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 22rem;
+  border-bottom: 1px solid #ffff;
+  margin-top: 0; }
+  @media (min-width: 768px) {
+    .fondo-nosotros {
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 40rem; } }
+  .fondo-nosotros .navegacion-nosotros {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-height: 5rem; }
+  .fondo-nosotros .titulo {
+    margin: 0 auto;
+    padding: 4rem;
+    font-family: "Inconsolata", monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: #ffff; }
+
+.main-nosotros {
+  padding-top: 2rem; }
+  .main-nosotros .grid-nosotros {
+    display: grid;
+    justify-items: center; }
+    @media (min-width: 768px) {
+      .main-nosotros .grid-nosotros {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 5rem; } }
+    .main-nosotros .grid-nosotros .texto-nosotros {
+      line-height: 2;
+      padding: 4rem;
+      border: 1px solid #ffff;
+      margin: 2rem; }
+    .main-nosotros .grid-nosotros .video-youtube {
+      width: 32rem;
+      height: 30rem;
+      border: 1px solid #ffff;
+      margin: 1.2rem;
+      margin-bottom: 3rem; }
+      @media (min-width: 768px) {
+        .main-nosotros .grid-nosotros .video-youtube {
+          width: 60rem;
+          height: 39rem;
+          margin-bottom: 1rem; } }
+
 /* Estilos a Contacto */
 .container-fluid .formulario {
   margin-left: 2rem;

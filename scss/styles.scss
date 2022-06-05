@@ -350,7 +350,70 @@ main {
 }
 
 /* Estilos a Nosotros */
+.fondo-nosotros {
+    background-image: url(../img/Nosotros.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 22rem;
+    border-bottom: 1px solid $color-white;
+    margin-top: 0;
+    @media(min-width: 768px) {
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40rem;
+    }
+    .navegacion-nosotros {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $medida-promedio;
+        max-height: 5rem;
+        .logo {
+            @extend %logo;
+        }
+    }
+    .titulo {
+        margin: $centrar-div;
+        padding: 4rem;
+        font-family: $fuente-secundaria;
+        font-size: 3rem;
+        text-align: center;
+        color: $color-white;
+    }
+}
 
+.main-nosotros {
+    padding-top: $medida-promedio;
+    .grid-nosotros{
+        display: grid;
+        justify-items: center;
+        @media(min-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            padding: 5rem;
+        }
+        .texto-nosotros {
+            line-height: 2;
+            padding: $medida-promedio * 2;
+            @include border;
+            margin: $medida-promedio;
+        }
+        .video-youtube {
+            width: 32rem;
+            height: 30rem;
+            @include border;
+            margin: 1.2rem;
+            margin-bottom: 3rem;
+            @media(min-width: 768px) {
+                width: 60rem;
+                height: 39rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
 
 /* Estilos a Contacto */
 .container-fluid {
