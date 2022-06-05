@@ -388,6 +388,10 @@ main .grid-planes {
     text-align: center;
     color: #ffff; }
 
+@media (min-width: 768px) {
+  .nav-sticky {
+    position: relative; } }
+
 .main-nosotros {
   padding-top: 2rem; }
   .main-nosotros .grid-nosotros {

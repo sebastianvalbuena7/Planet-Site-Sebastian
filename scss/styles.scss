@@ -382,6 +382,11 @@ main {
         color: $color-white;
     }
 }
+.nav-sticky {
+    @media(min-width: 768px){
+        position: relative;
+    }
+}
 
 .main-nosotros {
     padding-top: $medida-promedio;
