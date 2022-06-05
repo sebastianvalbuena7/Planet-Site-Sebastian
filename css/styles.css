@@ -445,7 +445,8 @@ main .grid-planes {
         font-family: "Inconsolata", monospace;
         text-align: center;
         margin-bottom: 2rem;
-        padding-top: 3rem; }
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
       .container-fluid .formulario .form .formulario-estilo .input-form {
         margin: 0;
         margin-bottom: 2rem; }
@@ -460,7 +461,7 @@ main .grid-planes {
           margin-right: 0; }
           @media (min-width: 768px) {
             .container-fluid .formulario .form .formulario-estilo .input-form .label-texto {
-              margin-right: 7rem; } }
+              margin-right: 5rem; } }
         .container-fluid .formulario .form .formulario-estilo .input-form .input {
           background-color: #8d8d8d8d;
           border: none;
