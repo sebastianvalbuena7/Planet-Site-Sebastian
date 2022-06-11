@@ -104,6 +104,8 @@ header {
         color: #ffff;
         font-size: 1.5rem;
         font-weight: bold; }
+      header .nav-menu ul li a:hover {
+        color: #716b6b; }
   @media (max-width: 768px) {
     header .nav-menu .checkBtn {
       display: block; } }
