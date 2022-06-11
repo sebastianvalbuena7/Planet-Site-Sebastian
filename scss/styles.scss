@@ -45,6 +45,7 @@ img {
             @media (max-width: 768px) {
                 &:checked ~ ul {
                     left: 0;
+                    transition: all .25s;
                 }
             } 
         }
@@ -60,8 +61,8 @@ img {
                 height: 100vh;
                 right: 0;
             }
-            li{
-                margin-right: 1.5rem;
+        li{
+            margin-right: 1.5rem;
                 @media (max-width: 768px) {
                     padding: $medida-promedio;
                     display: flex;
@@ -91,6 +92,7 @@ img {
                     display: block;
                     position: fixed;
                     right: $medida-promedio;
+                    cursor: pointer;
                 }
             }
         }

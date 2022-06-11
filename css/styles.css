@@ -75,7 +75,8 @@ img {
     display: none; }
     @media (max-width: 768px) {
       .header .nav-menu #check:checked ~ ul {
-        left: 0; } }
+        left: 0;
+        transition: all .25s; } }
   .header .nav-menu ul {
     display: flex; }
     @media (max-width: 768px) {
@@ -114,7 +115,8 @@ img {
       .header .nav-menu .checkBtn .menu-icon {
         display: block;
         position: fixed;
-        right: 2rem; } }
+        right: 2rem;
+        cursor: pointer; } }
 
 /* Estilos al main */
 main {
