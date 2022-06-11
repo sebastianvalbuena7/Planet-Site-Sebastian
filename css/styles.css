@@ -63,24 +63,26 @@ img {
   position: sticky;
   top: 0; }
 
-.header {
+header {
   background-color: #161616;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem; }
-  .header .logo-header a img {
+  padding: 1rem 1rem 1rem;
+  margin: 0; }
+  header .logo-header a img {
     width: 8rem; }
-  .header .nav-menu #check {
+  header .nav-menu #check {
     display: none; }
     @media (max-width: 768px) {
-      .header .nav-menu #check:checked ~ ul {
+      header .nav-menu #check:checked ~ ul {
         left: 0;
         transition: all .25s; } }
-  .header .nav-menu ul {
-    display: flex; }
+  header .nav-menu ul {
+    display: flex;
+    align-items: center; }
     @media (max-width: 768px) {
-      .header .nav-menu ul {
+      header .nav-menu ul {
         display: block;
         position: fixed;
         top: 7rem;
@@ -89,33 +91,34 @@ img {
         width: 100%;
         height: 100vh;
         right: 0; } }
-    .header .nav-menu ul li {
+    header .nav-menu ul li {
       margin-right: 1.5rem; }
       @media (max-width: 768px) {
-        .header .nav-menu ul li {
+        header .nav-menu ul li {
           padding: 2rem;
           display: flex;
           justify-content: center;
           margin: 0; } }
-      .header .nav-menu ul li a {
+      header .nav-menu ul li a {
         text-decoration: none;
         color: #ffff;
         font-size: 1.5rem;
         font-weight: bold; }
   @media (max-width: 768px) {
-    .header .nav-menu .checkBtn {
+    header .nav-menu .checkBtn {
       display: block; } }
-  .header .nav-menu .checkBtn .menu-icon {
+  header .nav-menu .checkBtn .menu-icon {
     display: none; }
-    .header .nav-menu .checkBtn .menu-icon img {
+    header .nav-menu .checkBtn .menu-icon img {
       width: 3rem;
       height: 3rem;
       border-radius: 2px; }
     @media (max-width: 768px) {
-      .header .nav-menu .checkBtn .menu-icon {
+      header .nav-menu .checkBtn .menu-icon {
         display: block;
         position: fixed;
         right: 2rem;
+        top: 2rem;
         cursor: pointer; } }
 
 /* Estilos al main */
