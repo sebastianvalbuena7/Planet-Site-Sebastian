@@ -13,11 +13,9 @@ html {
     margin: 0;
     list-style: none;
 }
-
 img {
     max-width: 100%;
 }
-
 /* Utilidad */
 .texto {
     font-family: $fuente-principal;
@@ -108,7 +106,6 @@ header {
         }
     }
 }
-
 /* Estilos al main */
 main {
     background-image: url(../img/FondoEscritorio.png);
@@ -168,7 +165,6 @@ main {
             }
         }
     }
-
     .tierra-fondo {
         background-image: url(../img/Tarjeta_Inicio.jpg);
         background-repeat: no-repeat;
@@ -240,7 +236,6 @@ main {
         }
     }
 }
-
 /* Estilos al footer */
 footer {
     .navegacion-footer {
@@ -411,7 +406,6 @@ main {
         }
     }
 }
-
 /* Estilos a Nosotros */
 .fondo-nosotros {
     background-image: url(../img/Nosotros.jpg);
@@ -470,7 +464,6 @@ main {
         }
     }
 }
-
 /* Estilos a Contacto */
 .container-fluid {
     .formulario {
