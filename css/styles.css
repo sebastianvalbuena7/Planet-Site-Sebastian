@@ -136,7 +136,8 @@ main {
     font-family: "Inconsolata", monospace;
     font-size: 3rem;
     text-align: center;
-    color: #ffff; }
+    color: #ffff;
+    font-weight: bold; }
     @media (min-width: 768px) {
       main .titulo {
         padding: 4rem 1rem 4rem 4rem; } }
