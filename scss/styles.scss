@@ -416,14 +416,11 @@ main {
 .fondo-nosotros {
     background-image: url(../img/Nosotros.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 22rem;
-    border-bottom: 1px solid $color-white;
+    background-position: center;
     margin-top: 0;
     @media(min-width: 768px) {
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 40rem;
+        background-size: cover;
+        background-position: left;
     }
     .navegacion-nosotros {
         background-color: transparent;
@@ -460,7 +457,7 @@ main {
             grid-template-columns: 1fr 1fr;
             justify-items: center;
             align-items: center;
-            padding: 5rem;
+            padding: 2rem;
         }
         .texto-nosotros {
             line-height: 2;
