@@ -419,16 +419,8 @@ main {
     background-position: center;
     margin-top: 0;
     @media(min-width: 768px) {
-        background-size: cover;
-        background-position: left;
+        background-image: url(../img/Tarjeta_Inicio.jpg);
     }
-    .navegacion-nosotros {
-        background-color: transparent;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: $medida-promedio;
-        max-height: 5rem;
         .logo {
             @extend %logo;
         }
@@ -441,7 +433,6 @@ main {
         text-align: center;
         color: $color-white;
     }
-}
 .nav-nosotros {
     @media(min-width: 768px){
         position: relative;

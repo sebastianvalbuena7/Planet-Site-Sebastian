@@ -2,11 +2,11 @@
 /* Extends */
 /* Variables */
 /* Extend */
-footer .logo a img, .fondo-nosotros .navegacion-nosotros .logo {
+footer .logo a img, .fondo-nosotros .logo {
   max-width: 5.5rem;
   max-height: 6rem; }
   @media (min-width: 768px) {
-    footer .logo a img, .fondo-nosotros .navegacion-nosotros .logo {
+    footer .logo a img, .fondo-nosotros .logo {
       max-width: 10rem;
       max-height: 10rem; } }
 
@@ -389,22 +389,15 @@ main .grid-planes {
   margin-top: 0; }
   @media (min-width: 768px) {
     .fondo-nosotros {
-      background-size: cover;
-      background-position: left; } }
-  .fondo-nosotros .navegacion-nosotros {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    max-height: 5rem; }
-  .fondo-nosotros .titulo {
-    margin: 0 auto;
-    padding: 4rem;
-    font-family: "Inconsolata", monospace;
-    font-size: 3rem;
-    text-align: center;
-    color: #ffff; }
+      background-image: url(../img/Tarjeta_Inicio.jpg); } }
+
+.titulo {
+  margin: 0 auto;
+  padding: 4rem;
+  font-family: "Inconsolata", monospace;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffff; }
 
 @media (min-width: 768px) {
   .nav-nosotros {
